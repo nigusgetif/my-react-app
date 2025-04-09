@@ -1,7 +1,7 @@
 
-import './App.css'
-import data from './data'
+import data from '../data'
 import Entry from './Entry'
+import Header from './Header'
 
 function App() {
 
@@ -32,6 +32,7 @@ function App() {
 
   return(
     <>
+    <Header />
     <main className="container">
         {entryElements}
      </main>

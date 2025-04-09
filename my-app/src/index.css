@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.article{
+/* .article{
   background-image: url(/src/assets/reactLogo.png);
   background-repeat: no-repeat;
   background-position: right center;
@@ -21,7 +21,30 @@
   color: rgb(29, 188, 219);
   font-size: 1.5rem;
 
+} */
+.container {
+  margin: 45px 40px;
 }
+
+header {
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 article.journal-entry {
   display: flex;
   margin-bottom: 36px;
