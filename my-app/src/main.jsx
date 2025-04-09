@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
 function PageaaRender(){
   return(
     <>
-    <Header />
+    {/* <Header /> */}
     <App />
     </>
   )
